@@ -110,7 +110,7 @@
 	"dependencies": {
 		"@poppinss/utils": "^5.0.0",
 		"@types/luxon": "^3.3.1",
-		"@types/validator": "^13.11.1",
+		"@types/validator": "13.11.1",
 		"luxon": "^3.4.1",
 		"normalize-url": "^6.1.0",
 		"tmp-cache": "^1.1.0",
