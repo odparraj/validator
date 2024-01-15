@@ -86,7 +86,7 @@
 		"@poppinss/dev-utils": "^2.0.3",
 		"@types/node": "^18.11.18",
 		"benchmark": "^2.1.4",
-		"class-validator": "^0.14.0",
+		"class-validator": "0.14.0",
 		"commitizen": "^4.3.0",
 		"cz-conventional-changelog": "^3.3.0",
 		"del-cli": "^5.0.0",
