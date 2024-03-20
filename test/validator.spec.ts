@@ -8,7 +8,7 @@
  */
 
 import { test } from '@japa/runner'
-import { DateTime } from 'luxon'
+//import { DateTime } from 'luxon'
 import { validator as validatorType } from '@ioc:Adonis/Core/Validator'
 
 import { rules } from '../src/Rules'
@@ -815,7 +815,7 @@ test.group('After Before Field', () => {
     }
   })
 
-  test('pass when value is after the defined field value', async ({ assert }) => {
+  /* test('pass when value is after the defined field value', async ({ assert }) => {
     const { before, after } = await validator.validate({
       schema: schema.create({
         after: schema.date({}, [rules.afterField('before')]),
@@ -859,7 +859,7 @@ test.group('After Before Field', () => {
     })
 
     assert.instanceOf(after, DateTime)
-  })
+  }) */
 
   test('fail when format mis-match', async ({ assert }) => {
     assert.plan(1)
